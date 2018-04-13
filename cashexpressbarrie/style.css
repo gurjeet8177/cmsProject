@@ -1,0 +1,147 @@
+body {
+
+
+}
+
+#logo{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    margin: 0%;
+    left: 0%;
+    padding: 0;
+}
+ul{
+    position: fixed;
+    padding: 0%;
+    display: block;
+    text-decoration: none;
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    border-bottom:  #0f0f0f ridge 1px;
+    background: linear-gradient(-120deg, #0f0f0f,  #3b3733);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 2px 10px 0 rgba(221, 221, 221, 0.19);
+    z-index: 289;
+
+}
+
+.navLogo{
+    position: absolute;
+    top: -30%;
+    left: 0%;
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+
+
+li{
+    position: relative;
+    padding: 1%;
+    display: block;
+    background-color:transparent  ;
+    text-decoration: none;
+    list-style: none;
+    top: 0%;
+    color: #ffffff;
+    text-decoration: none;
+    left: 0%;
+    float: right;
+   font-size: 20px;
+  width: 9%;
+    text-align: center;
+}
+li:hover{
+    background-color:  #ffff00 ;
+    color: #0f0f0f;
+    /*
+    position: relative;
+    display: block;
+    padding: 1%;
+
+    text-decoration: none;
+    list-style: none;
+    top: 0%;
+    text-decoration: none;
+    left: 0%;
+    float: right;
+    font-size: 20px;
+    width: 9%;
+    text-align: center; */
+}
+.logoBox{
+    position:absolute;
+    width: 100%;
+
+   overflow: hidden;
+    height: 350px;
+    overflow: visible;
+    background: radial-gradient(#000000 5%, rgba(2, 2, 0, 0.98) 15%, #000500 60%);
+   /* background-color: #000000; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    z-index: -1;
+    margin: 0px;
+    left:0px;
+    right:0px;
+
+
+}
+.logoBoxImg{
+    position: absolute;
+
+    width: 30%;
+    top: 20%;
+    left: 0;
+
+
+    
+
+}
+
+
+nav{
+    position: absolute;
+    top: 0%;
+
+}
+
+.loanAdd{
+    position: absolute;
+
+    top:60%;
+    padding: 2%;
+    color: rgba(39, 39, 39, 0.93);
+    font-size:30px;
+    z-index: -1;
+    font-family: "Arial Narrow" ;
+    text-align: center;
+    line-height: 50%;
+    left: 0px;
+    width: 95%;
+
+}
+.loanAdd a{
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background: radial-gradient(#e51f19 20%, rgba(207, 28, 23, 0.98) 80%);
+    border-radius:5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.34);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 400%;
+
+}
+.loanAdd a:hover{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
